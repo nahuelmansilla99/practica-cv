@@ -1,0 +1,215 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    margin: 0;
+    background-color: #efefef;
+}
+header {
+    background-color: #523636;
+    color: white;
+    padding: 3rem 2rem;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+}
+header .email{
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.email {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    width: fit-content;
+    /* WIDTH: trabaja con el ancho total del objeto */
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.email:hover{
+    color: cornflowerblue;
+}
+
+/* Arreglar el logo de linkedin */
+/* a {
+    float: right;
+}
+ */
+
+.contenedor {
+/*     float: left; */
+    padding: 10px 10px 10px 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+        
+}
+img {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.educacion {
+    background-color: #fff;
+    margin: 5%;
+    border-radius: 10px;
+    /* padding: 0rem 2rem 1rem 2rem; */
+}
+
+.educacion h2{
+    font-size: 2rem;
+    text-align: center;
+    background-color: #364a52;
+    color: #fff;
+    margin: 0%;
+    border-radius: 10px 10px 0 0;
+}
+h3 {
+    padding: 0 0 0 3%;
+}
+ul {
+    padding: 1% 0 1% 3%;
+}
+
+
+.experiencia {
+    background-color: #fff;
+    margin: 5%;
+    border-radius: 10px;
+    display: flex;
+}
+.experiencia h2{
+    font-size: 2rem;
+    background-color: #364a52;
+    color: #fff;
+    text-align: left;
+    margin: 0%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10% 0 0 10%;
+    padding: 1%;
+}
+.experiencia li {
+    margin: 1%;
+}
+
+/* .habilidades {
+    background-color: #fff;
+    margin: 5%;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.habilidades h2{
+    font-size: 2rem;
+    background-color: #364a52;
+    color: #fff;
+    text-align: right;
+    margin: 0%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 0 10% 10% 0;
+    
+} */
+
+.habilidades {
+    background-color: #fff;
+    margin: 5%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.habilidades h2{
+    font-size: 2rem;
+    background-color: #364a52;
+    color: #fff;
+    text-align: left;
+    margin: 0%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 0 10% 10% 0;
+    padding: 1%;
+}
+
+.habilidades ul {
+    text-align: start;
+    justify-content: space-around;
+    padding: 1% 0 1% 3%;
+
+}
+
+.habilidades li {
+    padding: 1%;
+
+}
+
+.otros {
+    background-color: #fff;
+    margin: 5%;
+    border-radius: 10px;
+}
+
+.otros h2 {
+    font-size: 2rem;
+    text-align: center;
+
+    background-color: #364a52;
+    color: #fff;
+
+    border-radius: 10px 10px 0 0;
+}
+
+.otros li {
+    text-align: start;
+    padding: 0.25% 0 0.5% 1%;
+}
+
+footer {
+    background-color: #523636;
+    margin: 0%;
+    padding: 1rem 1rem;
+
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+}
+
+footer a:hover{
+    color: cornflowerblue;
+
+}
+
